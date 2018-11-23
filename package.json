@@ -1,0 +1,27 @@
+{
+  "name": "mubackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.2.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "firebase-admin": "^6.2.0",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-es2015-parameters": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
