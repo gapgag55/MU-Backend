@@ -3,17 +3,25 @@ const userTypes = `
     user
     merchant
   }
-  type User {
-    id: Int
-    username: String
+  input LoginInput {
+    email: String
     password: String
+  }
+  input RegisterInput {
+    email: String
+    password: String
+    fullname: String
+  }
+  type User {
     point: Float
     fullname: String
-    email: String
     type: userType
   }
   type Query {
-    getUser(id: Int): User
+    getUser(uid: String): User
+  }
+  type Mutation {
+    userRegister(input: RegisterInput): String
   }
 `;
 

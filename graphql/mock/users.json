@@ -1,20 +1,18 @@
 [
   {
     "id": 1,
-    "username": "imkopkap",
+    "email": "imkopkap@gmail.com",
     "password": "1234",
     "point": 10.52,
     "fullname": "Sarayut Lawilai",
-    "email": "imkopkap@gmail.com",
     "type": "user"
   },
   {
     "id": 2,
-    "username": "tanyedsod",
+    "email": "imtantan@gmail.com",
     "password": "1234",
     "point": 10.52,
     "fullname": "Thanadon Bunkerd",
-    "email": "imtantan@gmail.com",
     "type": "merchant"
   }
 ]

@@ -4,6 +4,7 @@ const binTypes = `
     longitude: Float
   }
   input BinInput {
+    peripheral: String
     latlng: LocationInput
     title: String
     description: String
@@ -13,6 +14,7 @@ const binTypes = `
     longitude: Float
   }
   type Bin {
+    peripheral: String
     latlng: Location
     title: String
     description: String
@@ -21,9 +23,7 @@ const binTypes = `
     getBins: [Bin]
   }
   type Mutation {
-    createBin(input: BinInput!): Bin
-    updateBin(id: Int!, input: BinInput!): Bin
-    deleteBin(id: Int!): String
+    createBin(input: BinInput!): String
   }
 `;
 
